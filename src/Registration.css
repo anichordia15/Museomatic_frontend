@@ -1,0 +1,89 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    background-color: #f1f1f1;
+    background-image:  url("images/home4.jpg");
+    backdrop-filter: blur(4px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  } */
+
+  .registration-box {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    background: linear-gradient(to bottom, #f48c15, #f5e7c0);
+    
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    display: grid;
+    gap: 10px;
+    margin: 9px 20px -204px 16px;
+  }
+
+  .registration-box h1 {
+    margin: 1%;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .registration-box label {
+    text-align: left;
+  }
+
+  .registration-box input[type="text"],
+  .registration-box input[type="number"],
+  .registration-box select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+
+  .registration-box button {
+    width: 100%;
+    padding: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 3%;
+  }
+
+  .amount-box {
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  #qrCode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  #paymentForm {
+    display: none;
+    margin-top: 20px;
+  }
+
+  #paymentMessage {
+    display: none;
+    margin-top: 10px;
+    color: green;
+    font-weight: bold;
+  }
+  .registration{
+    display: flex;
+    justify-content: center;
+  }

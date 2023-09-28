@@ -1,0 +1,16 @@
+.eticket {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url("./images/home1.jpg"); */
+  opacity: 0.9;
+}
+
+.email {
+  padding: 30px;
+  backdrop-filter: blur(80px);
+  border-radius: 30px;
+  font-size: 30px;
+  position: absolute;
+}

@@ -1,0 +1,14 @@
+.gall{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+.gall>img{
+  width: 300px;
+  margin: 30px;
+}
+.gallery_h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}

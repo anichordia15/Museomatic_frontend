@@ -1,0 +1,57 @@
+/* About.css */
+.about1{
+
+    background-image: url("./images//home1.jpg");
+    /* background-color: rgb(255, 179, 36); */
+}
+.about-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    backdrop-filter: blur(80px);
+    /* background-color: #f7f7f7; */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .about-container .image-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-container .image-container img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .about-container p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+  .about-container p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .about-container a {
+    color: #4caf50;
+  }
+  
+  .about-container a:hover {
+    text-decoration: underline;
+  }
+  
+  .about-container .highlight {
+    background-color: #4caf50;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
+  }
+  
+  
